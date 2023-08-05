@@ -1,0 +1,53 @@
+#HODid img{
+    width: 180px;
+    float: left;
+    margin-right:15px;
+}
+.card{
+    margin-top: 5px;
+}
+.card-title{
+    background-color: #03386f;
+    color: white;
+   }
+.container-fluid
+{
+    padding: 0;
+}
+#AlumniImg img{
+    width: 30%;
+    border-color: #03386f;
+    float: left;
+    margin: 5px;
+}
+.projects{
+    padding: 40px 70px;
+}
+.accordion-header button{
+    background-color: lightgreen;
+    color: #03386f;
+}
+.accordion-button:not(.collapsed){
+    background-color: #6d6f03;
+    color: #ffffff;
+}
+.support a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2.5;
+}
+@media only screen and (max-width: 1024px){
+    .banner{
+        padding: 10px;
+    }
+    .banner img{
+        display: none;
+    }
+    .banner-content{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .projects{
+        padding: 40px 20px;
+    }
+}

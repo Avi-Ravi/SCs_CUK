@@ -1,0 +1,21 @@
+.navbar{
+        background-color: #03386f;
+    }
+.nav-link{
+        font-size:17px;
+        opacity: 0.8;
+            }
+.nav-item a:hover{
+        text-decoration: underline;
+        font-size: 18px;
+        height: 40px;
+        position: relative;
+        border-radius: 5px;
+        animation: mymove 5s infinite;
+        opacity: 1.0;
+        }
+@keyframes mymove {
+        from {top: 0px;}
+        to {top: 10px;}
+    }
+    

@@ -1,0 +1,14 @@
+#FacultyImg img{
+    float: left;
+    margin-right: 15px;
+}
+.card{
+    margin-top: 5px;
+}
+.card-title{
+    background-color: #03386f;
+    color: #ffffff;
+}
+.FacultyMail{
+    font-style: italic;    
+    }

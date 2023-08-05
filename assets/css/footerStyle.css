@@ -1,0 +1,27 @@
+.social-media a{
+    text-decoration: none;
+}
+.courseList, .social-media{
+    list-style-type: none;
+    padding: 0;
+    line-height: 2.5;
+}
+.courseList a{
+    text-decoration: none;
+}
+.courseList a:hover{
+    text-decoration: none;
+}
+.social-media{
+    display: inline-flex;
+}
+.social-media li:not(:first-child){
+    margin: 0px 10px;
+}
+.social-media li:first-child{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1024px)
+{
+
+}
